@@ -44,8 +44,11 @@ Here’s a sample hand.
     7s Ts Ks Kd 9d
 
 **YOU:** Okay, I was going ask what character to use for 10, but I guess ‘T’ is it. And ‘c’, ’d’, ‘h’ and ’s’ for the suits, makes sense. Why aren’t seven cards listed for every player?
+
 **BOB:** Well, if a player folds, only his hole cards and the community cards he’s seen so far are shown.
+
 **YOU:** Right. And why did the fifth player play with a 4 and 2? They’re suited, but geez, talk about risk…
+
 **BOB:** Stay on topic. Now, the end result of your code should generate output that looks like this:
 
     Kc 9s Ks Kd 9d 3c 6d Full House (winner)
@@ -68,6 +71,7 @@ Here’s a sample hand.
 **BOB:** What’s that?
 
 **YOU:** Why he stayed in with only the 4 and 2 of diamonds? That’s just…
+
 **BOB:** Hey! Show’s on in ten minutes! Get to work!
 
 ### Hand rankings (from weakest to strongest)
