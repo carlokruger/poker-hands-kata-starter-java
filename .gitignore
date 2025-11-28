@@ -1,16 +1,49 @@
-.idea
-build
-.gradle
-bin
-.settings
-.project
-.classpath
-.java-version
-out
-clues.pdf
-instructions.pdf
-new-to-tdd.pdf
-.gitignore
-.gitignore
-reference.pdf
-README.pdf
+## Python specific gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+
+# PDFs
+*.pdf
