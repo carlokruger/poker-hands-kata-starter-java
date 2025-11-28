@@ -77,6 +77,8 @@ Here’s a sample hand.
 ### Hand rankings (from weakest to strongest)
 A quick cheat-sheet, because yes, you should know the order:
 
+![alt text](image.png)
+
  - High card (no pair, highest card wins)
  - One pair
  - Two pairs
