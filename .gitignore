@@ -1,16 +1,48 @@
-.idea
-build
-.gradle
-bin
-.settings
-.project
-.classpath
-.java-version
-out
-clues.pdf
-instructions.pdf
-new-to-tdd.pdf
-.gitignore
-.gitignore
-reference.pdf
-README.pdf
+## .NET specific gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Others
+*.cache
+*.log
+*.tmp
+.DS_Store
+
+# PDF outputs
+*.pdf

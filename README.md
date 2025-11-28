@@ -4,38 +4,38 @@ This is a starter repository for the Poker Hands coding kata. The goal is to imp
 
 ## Getting Started
 
-This project uses Gradle for build and dependency management. You don't need to install Gradle - use the included wrapper.
-
 ### Branch Options
 
-Choose the branch that matches your preferred test framework:
+Choose the branch that matches your preferred programming language:
 
-- **`main`** (default) - Java 8 with both JUnit 4 and JUnit 5 support
-  - Use either testing framework
-  - Includes example tests for both
-  - Maximum flexibility
-
+- **`main`** - Java 8 with both JUnit 4 and JUnit 5 support
 - **`jupiter-only`** - Java 8 with JUnit 5 (Jupiter) only
-  - Modern JUnit 5 API
-  - No legacy JUnit 4 dependencies
-  - Cleaner setup if you only want JUnit 5
+- **`dotnet`** - .NET 6 with xUnit
+- **`python`** - Python 3.8+ with pytest
+- **`typescript`** - TypeScript with Jest
+
+## .NET Setup
+
+This branch uses .NET 6 and xUnit for testing.
+
+### Prerequisites
+- .NET 6 SDK or later
 
 ### Build the project
 ```bash
-./gradlew build
+dotnet build
 ```
 
 ### Run tests
 ```bash
-./gradlew test
+dotnet test
 ```
 
 ### Project Structure
 
 ```
-src/
-├── main/java/com/kata/poker/    # Your production code goes here
-└── test/java/com/kata/poker/    # Your test code goes here
+PokerHands/              # Your production code goes here
+PokerHands.Tests/        # Your test code goes here
 ```
 
 ### Texas HoldEm
