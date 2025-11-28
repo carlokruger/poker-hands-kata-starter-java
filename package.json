@@ -1,0 +1,23 @@
+{
+  "name": "poker-hands-kata",
+  "version": "1.0.0",
+  "description": "Texas Hold'em Poker Hands Kata",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": ["kata", "poker", "tdd"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
