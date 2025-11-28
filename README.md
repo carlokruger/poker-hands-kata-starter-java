@@ -6,6 +6,20 @@ This is a starter repository for the Poker Hands coding kata. The goal is to imp
 
 This project uses Gradle for build and dependency management. You don't need to install Gradle - use the included wrapper.
 
+### Branch Options
+
+Choose the branch that matches your preferred test framework:
+
+- **`main`** (default) - Java 8 with both JUnit 4 and JUnit 5 support
+  - Use either testing framework
+  - Includes example tests for both
+  - Maximum flexibility
+
+- **`jupiter-only`** - Java 8 with JUnit 5 (Jupiter) only
+  - Modern JUnit 5 API
+  - No legacy JUnit 4 dependencies
+  - Cleaner setup if you only want JUnit 5
+
 ### Build the project
 ```bash
 ./gradlew build
